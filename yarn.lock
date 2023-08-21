@@ -2015,17 +2015,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"class-variance-authority@npm:^0.6.0":
-  version: 0.6.0
-  resolution: "class-variance-authority@npm:0.6.0"
+"class-variance-authority@npm:^0.7.0":
+  version: 0.7.0
+  resolution: "class-variance-authority@npm:0.7.0"
   dependencies:
-    clsx: 1.2.1
-  peerDependencies:
-    typescript: ">= 4.5.5 < 6"
-  peerDependenciesMeta:
-    typescript:
-      optional: true
-  checksum: c86fe9d208b33afbd82e3349739f8be9bfceb17e78f2ee689039029de016c5547883b41ac8ab69630f433cf4d4c9159a3c82072e9d8b7225f63cd31c01d6c9b8
+    clsx: 2.0.0
+  checksum: e7fd1fab433ef06f52a1b7b241b70b4a185864deef199d3b0a2c3412f1cc179517288264c383f3b971a00d76811625fc8f7ffe709e6170219e88cd7368f08a20
   languageName: node
   linkType: hard
 
@@ -2043,10 +2038,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"clsx@npm:1.2.1":
-  version: 1.2.1
-  resolution: "clsx@npm:1.2.1"
-  checksum: 30befca8019b2eb7dbad38cff6266cf543091dae2825c856a62a8ccf2c3ab9c2907c4d12b288b73101196767f66812365400a227581484a05f968b0307cfaf12
+"clsx@npm:2.0.0, clsx@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "clsx@npm:2.0.0"
+  checksum: a2cfb2351b254611acf92faa0daf15220f4cd648bdf96ce369d729813b85336993871a4bf6978ddea2b81b5a130478339c20d9d0b5c6fc287e5147f0c059276e
   languageName: node
   linkType: hard
 
@@ -4095,12 +4090,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lucide-react@npm:^0.221.0":
-  version: 0.221.0
-  resolution: "lucide-react@npm:0.221.0"
+"lucide-react@npm:^0.268.0":
+  version: 0.268.0
+  resolution: "lucide-react@npm:0.268.0"
   peerDependencies:
     react: ^16.5.1 || ^17.0.0 || ^18.0.0
-  checksum: b631e58bb9807705f65fb4775a912c28dd6cba3692fe0ec8c2e6ce5dfd07b1bbb0b443c9c712aaf3b9fa021943e4ac61143629effc796a5ea80e2c3717aa4cf5
+  checksum: cb40a30bb9e0156f81cc2960a4708b948330304e40efeae7043d0414679cd6ae6dfe37c7eb99d56e673863e5862aa408d89669048afaba1b6dd3677e59d0bd96
   languageName: node
   linkType: hard
 
@@ -5329,14 +5324,15 @@ __metadata:
     "@upstash/redis": ^1.21.0
     autoprefixer: 10.4.14
     axios: ^1.4.0
-    class-variance-authority: ^0.6.0
+    class-variance-authority: ^0.7.0
+    clsx: ^2.0.0
     cmdk: ^0.2.0
     date-fns: ^2.30.0
     editorjs-react-renderer: ^3.5.1
     eslint: 8.41.0
     eslint-config-next: 13.4.4
     lodash.debounce: ^4.0.8
-    lucide-react: ^0.221.0
+    lucide-react: ^0.268.0
     nanoid: ^4.0.2
     next: 13.4.4
     next-auth: ^4.22.1
@@ -5349,9 +5345,9 @@ __metadata:
     react-textarea-autosize: ^8.4.1
     server-only: ^0.0.1
     sharp: ^0.32.1
-    tailwind-merge: ^1.12.0
+    tailwind-merge: ^1.14.0
     tailwindcss: 3.3.2
-    tailwindcss-animate: ^1.0.5
+    tailwindcss-animate: ^1.0.6
     typescript: 5.0.4
     uploadthing: ^4.0.0
     zod: ^3.21.4
@@ -5923,19 +5919,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tailwind-merge@npm:^1.12.0":
-  version: 1.13.0
-  resolution: "tailwind-merge@npm:1.13.0"
-  checksum: 03452dbcf389051bd4d60645e9f27699a0214e5dc910c7570068baf25adfe384e415f246276cde6bbdd0f414df3053dbf009b033d586a19de45db6b48f4fe954
+"tailwind-merge@npm:^1.14.0":
+  version: 1.14.0
+  resolution: "tailwind-merge@npm:1.14.0"
+  checksum: 8cf5d37f51b3b32e4bdd5544feaed34357bfba2f64f14834cc4a21ac29b0ae22d7255386467a0f1dadb3e38499389efbbabeddcd0b16571af5a0d346a4921877
   languageName: node
   linkType: hard
 
-"tailwindcss-animate@npm:^1.0.5":
-  version: 1.0.5
-  resolution: "tailwindcss-animate@npm:1.0.5"
+"tailwindcss-animate@npm:^1.0.6":
+  version: 1.0.6
+  resolution: "tailwindcss-animate@npm:1.0.6"
   peerDependencies:
     tailwindcss: "*"
-  checksum: 6b558f85a6af0780f018e1d23736d56dd59795f051df413bc2cf2fc2a021d6b1a3b78066f93e1045f3a39c11ee191c728db79e606d9a1def07fdf6a10f045312
+  checksum: 01471cb5e64d0936b3dc90bdb1d4b379e8b73b3d285553337d8576e5d458e868ddff99c6db0ae454c1be69ce8f88dc0eed44ea62e4d7bca10d7d2479fc4c8ee0
   languageName: node
   linkType: hard
 

@@ -1,2 +1,6 @@
 lib folder here is for managing stuff coming from libaries. 
 
+
+planetsclae : for serverless mysql with prisma ORM
+nanoid: for unique link compatable id 
+shadcn/ui: for nextjs prebuid components with high order components { customizable }
