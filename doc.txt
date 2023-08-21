@@ -1,0 +1,2 @@
+lib folder here is for managing stuff coming from libaries. 
+
